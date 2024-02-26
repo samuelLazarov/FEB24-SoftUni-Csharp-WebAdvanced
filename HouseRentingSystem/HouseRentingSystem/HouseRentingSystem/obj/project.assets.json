@@ -969,7 +969,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.22"
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.22",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.22"
         },
         "compile": {
           "bin/placeholder/HouseRentingSystem.Infrastructure.dll": {}

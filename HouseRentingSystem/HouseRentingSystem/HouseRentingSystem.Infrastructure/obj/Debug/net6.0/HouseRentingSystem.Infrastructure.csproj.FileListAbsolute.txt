@@ -10,3 +10,5 @@ D:\Softuni\SoftUni C#Web\Projects\FEB24-SoftUni-Csharp-WebAdvanced\HouseRentingS
 D:\Softuni\SoftUni C#Web\Projects\FEB24-SoftUni-Csharp-WebAdvanced\HouseRentingSystem\HouseRentingSystem\HouseRentingSystem.Infrastructure\obj\Debug\net6.0\HouseRentingSystem.Infrastructure.pdb
 D:\Softuni\SoftUni C#Web\Projects\FEB24-SoftUni-Csharp-WebAdvanced\HouseRentingSystem\HouseRentingSystem\HouseRentingSystem.Infrastructure\obj\Debug\net6.0\ref\HouseRentingSystem.Infrastructure.dll
 D:\Softuni\SoftUni C#Web\Projects\FEB24-SoftUni-Csharp-WebAdvanced\HouseRentingSystem\HouseRentingSystem\HouseRentingSystem.Infrastructure\obj\Debug\net6.0\HouseRentingSystem.Infrastructure.csproj.AssemblyReference.cache
+D:\Softuni\SoftUni C#Web\Projects\FEB24-SoftUni-Csharp-WebAdvanced\HouseRentingSystem\HouseRentingSystem\HouseRentingSystem.Infrastructure\bin\Debug\net6.0\HouseRentingSystem.Infrastructure.runtimeconfig.json
+D:\Softuni\SoftUni C#Web\Projects\FEB24-SoftUni-Csharp-WebAdvanced\HouseRentingSystem\HouseRentingSystem\HouseRentingSystem.Infrastructure\obj\Debug\net6.0\HouseRentingSystem.Infrastructure.genruntimeconfig.cache
