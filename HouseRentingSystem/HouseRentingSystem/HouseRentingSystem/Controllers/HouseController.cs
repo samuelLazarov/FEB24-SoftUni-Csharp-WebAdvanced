@@ -9,7 +9,7 @@ namespace HouseRentingSystem.Controllers
     {
         [AllowAnonymous]
         [HttpGet]
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> All()
         {
             var model = new AllHousesQueryModel();
             
@@ -56,5 +56,31 @@ namespace HouseRentingSystem.Controllers
         {
             return RedirectToAction(nameof(Details), new { id = "1" });
         }
-    }
+
+        [HttpGet]
+        public async Task<IActionResult> Delete(int id)
+        {
+            var model = new HouseDetailsViewModel();
+            return View(model);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Delete(HouseDetailsViewModel house)
+        {
+            return RedirectToAction(nameof(All));
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Rent(int id)
+        {
+            return RedirectToAction(nameof(Mine));
+        }
+        
+        [HttpPost]
+		public async Task<IActionResult> Leave(int id)
+		{
+			return RedirectToAction(nameof(Mine));
+		}
+         
+	}
 }
