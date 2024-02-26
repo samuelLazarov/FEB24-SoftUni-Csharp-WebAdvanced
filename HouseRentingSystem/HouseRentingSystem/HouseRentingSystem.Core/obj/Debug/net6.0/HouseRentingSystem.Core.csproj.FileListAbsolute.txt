@@ -1,0 +1,15 @@
+D:\Softuni\SoftUni C#Web\Projects\FEB24-SoftUni-Csharp-WebAdvanced\HouseRentingSystem\HouseRentingSystem\HouseRentingSystem.Core\bin\Debug\net6.0\HouseRentingSystem.Core.deps.json
+D:\Softuni\SoftUni C#Web\Projects\FEB24-SoftUni-Csharp-WebAdvanced\HouseRentingSystem\HouseRentingSystem\HouseRentingSystem.Core\bin\Debug\net6.0\HouseRentingSystem.Core.dll
+D:\Softuni\SoftUni C#Web\Projects\FEB24-SoftUni-Csharp-WebAdvanced\HouseRentingSystem\HouseRentingSystem\HouseRentingSystem.Core\bin\Debug\net6.0\HouseRentingSystem.Core.pdb
+D:\Softuni\SoftUni C#Web\Projects\FEB24-SoftUni-Csharp-WebAdvanced\HouseRentingSystem\HouseRentingSystem\HouseRentingSystem.Core\obj\Debug\net6.0\HouseRentingSystem.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Softuni\SoftUni C#Web\Projects\FEB24-SoftUni-Csharp-WebAdvanced\HouseRentingSystem\HouseRentingSystem\HouseRentingSystem.Core\obj\Debug\net6.0\HouseRentingSystem.Core.AssemblyInfoInputs.cache
+D:\Softuni\SoftUni C#Web\Projects\FEB24-SoftUni-Csharp-WebAdvanced\HouseRentingSystem\HouseRentingSystem\HouseRentingSystem.Core\obj\Debug\net6.0\HouseRentingSystem.Core.AssemblyInfo.cs
+D:\Softuni\SoftUni C#Web\Projects\FEB24-SoftUni-Csharp-WebAdvanced\HouseRentingSystem\HouseRentingSystem\HouseRentingSystem.Core\obj\Debug\net6.0\HouseRentingSystem.Core.csproj.CoreCompileInputs.cache
+D:\Softuni\SoftUni C#Web\Projects\FEB24-SoftUni-Csharp-WebAdvanced\HouseRentingSystem\HouseRentingSystem\HouseRentingSystem.Core\obj\Debug\net6.0\HouseRentingSystem.Core.dll
+D:\Softuni\SoftUni C#Web\Projects\FEB24-SoftUni-Csharp-WebAdvanced\HouseRentingSystem\HouseRentingSystem\HouseRentingSystem.Core\obj\Debug\net6.0\refint\HouseRentingSystem.Core.dll
+D:\Softuni\SoftUni C#Web\Projects\FEB24-SoftUni-Csharp-WebAdvanced\HouseRentingSystem\HouseRentingSystem\HouseRentingSystem.Core\obj\Debug\net6.0\HouseRentingSystem.Core.pdb
+D:\Softuni\SoftUni C#Web\Projects\FEB24-SoftUni-Csharp-WebAdvanced\HouseRentingSystem\HouseRentingSystem\HouseRentingSystem.Core\obj\Debug\net6.0\ref\HouseRentingSystem.Core.dll
+D:\Softuni\SoftUni C#Web\Projects\FEB24-SoftUni-Csharp-WebAdvanced\HouseRentingSystem\HouseRentingSystem\HouseRentingSystem.Core\bin\Debug\net6.0\HouseRentingSystem.Infrastructure.dll
+D:\Softuni\SoftUni C#Web\Projects\FEB24-SoftUni-Csharp-WebAdvanced\HouseRentingSystem\HouseRentingSystem\HouseRentingSystem.Core\bin\Debug\net6.0\HouseRentingSystem.Infrastructure.pdb
+D:\Softuni\SoftUni C#Web\Projects\FEB24-SoftUni-Csharp-WebAdvanced\HouseRentingSystem\HouseRentingSystem\HouseRentingSystem.Core\obj\Debug\net6.0\HouseRentingSystem.Core.csproj.AssemblyReference.cache
+D:\Softuni\SoftUni C#Web\Projects\FEB24-SoftUni-Csharp-WebAdvanced\HouseRentingSystem\HouseRentingSystem\HouseRentingSystem.Core\obj\Debug\net6.0\HouseRentingSystem.Core.csproj.CopyComplete
