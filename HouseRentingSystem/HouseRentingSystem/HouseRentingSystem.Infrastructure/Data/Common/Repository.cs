@@ -2,7 +2,7 @@
 
 namespace HouseRentingSystem.Infrastructure.Data.Common
 {
-	public class Repository : IRepository
+    public class Repository : IRepository
 	{
 		private readonly DbContext context;
 
@@ -27,5 +27,15 @@ namespace HouseRentingSystem.Infrastructure.Data.Common
 			return DbSet<T>()
 				.AsNoTracking();
 		}
-	}
+
+        public Task AddAsync<T>(T entity) where T : class
+        {
+            throw new NotImplementedException();
+        }
+
+        public async Task<int> SaveChangesAsync()
+        {
+            return await context.SaveChangesAsync();
+        }
+    }
 }
