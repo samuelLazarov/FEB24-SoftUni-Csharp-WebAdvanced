@@ -12,9 +12,9 @@
 
         public const int HouseAddressMinLenght = 30;
 
-        public const int DescriptionMaxLength = 500;
+        public const int HouseDescriptionMaxLength = 500;
 
-        public const int DescriptionMinLength = 50;
+        public const int HouseDescriptionMinLength = 50;
 
         public const string HouseRentingPriceMinimum = "0.00";
 

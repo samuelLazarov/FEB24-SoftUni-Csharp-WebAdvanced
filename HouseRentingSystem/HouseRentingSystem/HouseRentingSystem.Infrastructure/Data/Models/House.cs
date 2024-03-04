@@ -24,12 +24,12 @@ namespace HouseRentingSystem.Infrastructure.Data.Models
         public string Address { get; set; } = string.Empty;
 
         [Required]
-        [MaxLength(DescriptionMaxLength)]
+        [MaxLength(HouseDescriptionMaxLength)]
         [Comment("House description")]
         public string Description { get; set; } = string.Empty;
 
         [Required]
-        [MaxLength(DescriptionMaxLength)]
+        [MaxLength(HouseDescriptionMaxLength)]
         [Comment("House image url")]
         public string ImageUrl { get; set; } = string.Empty;
 

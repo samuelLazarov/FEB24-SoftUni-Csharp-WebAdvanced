@@ -28,9 +28,9 @@ namespace HouseRentingSystem.Infrastructure.Data.Common
 				.AsNoTracking();
 		}
 
-        public Task AddAsync<T>(T entity) where T : class
+        public async Task AddAsync<T>(T entity) where T : class
         {
-            throw new NotImplementedException();
+            await DbSet<T>().AddAsync(entity);
         }
 
         public async Task<int> SaveChangesAsync()
