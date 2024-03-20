@@ -23,25 +23,48 @@ namespace HouseRentingSystem.Controllers
 
         [AllowAnonymous]
         [HttpGet]
-        public async Task<IActionResult> All()
+        public async Task<IActionResult> All([FromQuery]AllHousesQueryModel model)
         {
-            var model = new AllHousesQueryModel();
-            
+            var houses = await houseService.AllAsync(
+                model.Category,
+                model.SearchTerm,
+                model.Sorting,
+                model.CurrentPage,
+                model.HousesPerPage);
+
+            model.TotalHousesCount = houses.TotalHousesCount;
+            model.Houses = houses.Houses;
+            model.Categories = await houseService.AllCategoriesNamesASync();
+
             return View(model);
         }
 
         [HttpGet]
         public async Task<IActionResult> Mine()
         {
-            var model = new AllHousesQueryModel();
-
+            var userId = User.Id();
+            IEnumerable<HouseServiceModel> model;
+            if (await agentService.ExistByIdAsync(userId))
+            {
+                int agentId = await agentService.GetAgentIdAsync(userId) ?? 0;
+                model = await houseService.AllHousesByAgentIdAsync(agentId);
+            }
+            else
+            {
+                model = await houseService.AllHousesByUserId(userId);
+            }
             return View(model);
         }
 
         [HttpGet]
         public async Task<IActionResult> Details(int id)
         {
-            var model = new HouseDetailsViewModel();
+            if (await houseService.ExistsAsync(id) == false)
+            {
+                return BadRequest();
+            }
+
+            var model = await houseService.HouseDetailsByIdAsync(id);
 
             return View(model);
         }
