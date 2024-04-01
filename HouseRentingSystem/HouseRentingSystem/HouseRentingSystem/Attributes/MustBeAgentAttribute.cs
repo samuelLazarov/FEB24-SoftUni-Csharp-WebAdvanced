@@ -14,13 +14,13 @@ namespace HouseRentingSystem.Attributes
 
             IAgentService? agentService = context.HttpContext.RequestServices.GetService<IAgentService>();
             
-            if (agentService != null)
+            if (agentService == null)
             {
                 context.Result = new StatusCodeResult(StatusCodes.Status500InternalServerError);
             }
 
-            if(agentService != null
-                && agentService.ExistByIdAsync(context.HttpContext.User.Id()).Result == false)
+            if (agentService != null
+                && agentService.ExistsByIdAsync(context.HttpContext.User.Id()).Result == false)
             {
                 context.Result = new RedirectToActionResult(nameof(AgentController.Become), "Agent", null);
             }

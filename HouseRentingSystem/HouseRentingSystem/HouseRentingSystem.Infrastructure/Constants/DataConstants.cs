@@ -2,15 +2,15 @@
 {
     public static class DataConstants
     {
-        public const int NameMaxLenght = 50;
+        public const int NameMaxLength = 50;
 
-        public const int HouseTitleMaxLenght = 50;
+        public const int HouseTitleMaxLength = 50;
 
-        public const int HouseTitleMinLenght = 10;
+        public const int HouseTitleMinLength = 10;
 
-        public const int HouseAddressMaxLenght = 150;
+        public const int HouseAddressMaxLength = 150;
 
-        public const int HouseAddressMinLenght = 30;
+        public const int HouseAddressMinLength = 30;
 
         public const int HouseDescriptionMaxLength = 500;
 

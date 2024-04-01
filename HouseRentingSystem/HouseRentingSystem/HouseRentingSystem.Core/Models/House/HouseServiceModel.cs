@@ -1,5 +1,4 @@
-﻿
-using System.ComponentModel;
+﻿using HouseRentingSystem.Core.Contracts;
 using System.ComponentModel.DataAnnotations;
 using static HouseRentingSystem.Core.Constants.MessageConstants;
 using static HouseRentingSystem.Infrastructure.Constants.DataConstants;
@@ -7,20 +6,20 @@ using static HouseRentingSystem.Infrastructure.Constants.DataConstants;
 
 namespace HouseRentingSystem.Core.Models.House
 {
-    public class HouseServiceModel
+    public class HouseServiceModel : IHouseModel
     {
         public int Id { get; set; }
 
         [Required(ErrorMessage = RequiredMessage)]
-        [StringLength(HouseTitleMaxLenght,
-            MinimumLength = HouseTitleMinLenght,
+        [StringLength(HouseTitleMaxLength,
+            MinimumLength = HouseTitleMinLength,
             ErrorMessage = LengthMessage)]
         public string Title { get; set; } = string.Empty;
 
 
         [Required(ErrorMessage = RequiredMessage)]
-        [StringLength(HouseAddressMaxLenght,
-            MinimumLength = HouseAddressMinLenght,
+        [StringLength(HouseAddressMaxLength,
+            MinimumLength = HouseAddressMinLength,
             ErrorMessage = LengthMessage)]
         public string Address { get; set; } = string.Empty;
 

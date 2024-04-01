@@ -1,4 +1,4 @@
-﻿namespace HouseRentingSystem.Core.Enumeraions
+﻿namespace HouseRentingSystem.Core.Enumerations
 {
     public enum HouseSorting
     {

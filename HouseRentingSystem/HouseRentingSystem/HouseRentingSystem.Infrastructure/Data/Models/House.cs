@@ -13,13 +13,13 @@ namespace HouseRentingSystem.Infrastructure.Data.Models
         public int Id { get; set; }
 
         [Required]
-        [MaxLength(HouseTitleMaxLenght)]
+        [MaxLength(HouseTitleMaxLength)]
         [Comment("Title")]
         public string Title { get; set; } = string.Empty;
 
 
         [Required]
-        [MaxLength(HouseAddressMaxLenght)]
+        [MaxLength(HouseAddressMaxLength)]
         [Comment("House address")]
         public string Address { get; set; } = string.Empty;
 
@@ -29,7 +29,7 @@ namespace HouseRentingSystem.Infrastructure.Data.Models
         public string Description { get; set; } = string.Empty;
 
         [Required]
-        [MaxLength(HouseDescriptionMaxLength)]
+        
         [Comment("House image url")]
         public string ImageUrl { get; set; } = string.Empty;
 

@@ -12,7 +12,7 @@ namespace HouseRentingSystem.Infrastructure.Data.Models
         public int Id { get; set; }
 
         [Required]
-        [MaxLength(NameMaxLenght)]
+        [MaxLength(NameMaxLength)]
         [Comment("Category name")]
         public string Name { get; set; } = string.Empty;
 

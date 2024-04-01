@@ -1,4 +1,4 @@
-﻿using HouseRentingSystem.Core.Enumeraions;
+﻿using HouseRentingSystem.Core.Enumerations;
 using HouseRentingSystem.Core.Models.Home;
 using HouseRentingSystem.Core.Models.House;
 
@@ -21,7 +21,7 @@ namespace HouseRentingSystem.Core.Contracts
             int currentPage = 1,
             int housesPerPage = 1);
 
-        Task<IEnumerable<string>> AllCategoriesNamesASync();
+        Task<IEnumerable<string>> AllCategoriesNamesAsync();
 
         Task<IEnumerable<HouseServiceModel>> AllHousesByAgentIdAsync(int agentId);
 
@@ -37,5 +37,14 @@ namespace HouseRentingSystem.Core.Contracts
 
         Task<HouseFormModel?> GetHouseFormModelByIdAsync(int id);
 
+        Task DeleteAsync(int houseId);
+
+        Task<bool> IsRentedAsync(int houseId);
+
+        Task<bool> IsRentedByIUserWithIdAsync(int houseId, string userId);
+
+        Task RentAsync(int id, string userId);
+
+        Task LeaveAsync(int houseId, string userId);
     }
 }

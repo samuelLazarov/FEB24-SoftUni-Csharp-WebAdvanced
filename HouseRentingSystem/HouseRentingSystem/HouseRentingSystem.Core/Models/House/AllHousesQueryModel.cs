@@ -1,4 +1,4 @@
-﻿using HouseRentingSystem.Core.Enumeraions;
+﻿using HouseRentingSystem.Core.Enumerations;
 using System.ComponentModel.DataAnnotations;
 
 namespace HouseRentingSystem.Core.Models.House

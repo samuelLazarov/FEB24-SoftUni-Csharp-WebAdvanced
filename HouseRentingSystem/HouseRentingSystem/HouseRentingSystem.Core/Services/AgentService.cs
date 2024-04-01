@@ -25,7 +25,7 @@ namespace HouseRentingSystem.Core.Services
             await repository.SaveChangesAsync();
         }
 
-        public async Task<bool> ExistByIdAsync(string userId)
+        public async Task<bool> ExistsByIdAsync(string userId)
         {
             return await repository.AllReadOnly<Agent>()
                 .AnyAsync(a => a.UserId == userId);
