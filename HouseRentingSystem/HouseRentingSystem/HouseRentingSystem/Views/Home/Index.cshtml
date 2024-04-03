@@ -1,5 +1,5 @@
-﻿@model IEnumerable<HouseIndexServiceModel>
-@inject IAgentService agentService
+﻿ @model IEnumerable<HouseIndexServiceModel>
+ @inject IAgentService agentService
 
 @{
     ViewData["Title"] = "Home Page";
@@ -8,20 +8,20 @@
 
 @if (!houses.Any())
 {
-        <div class="mt-4 p-5 bg-light">
-            <h1 class="display-4">Welcome to the best place for renting houses!</h1>
-            <p class="lead">
-                There are no houses in the system currently available
-                so why don't you just add one?
-            </p>
-            <hr class="my-4">
-            <p class="lead">
-            @if (User?.Identity?.IsAuthenticated ?? false)
+    <div class="mt-4 p-5 bg-light">
+        <h1 class="display-4">Welcome to the best place for renting houses!</h1>
+        <p class="lead">
+            There are no houses in the system currently available
+            so why don't you just add one?
+        </p>
+        <hr class="my-4">
+        <p class="lead">
+            @if (User?.Identity?.IsAuthenticated ?? false && await agentService.ExistsByIdAsync(User.Id()))
             {
-                        <a asp-controller="House" asp-action="Add" class="btn btn-primary btn-lg" role="button">Add House</a>
+                <a asp-controller="House" asp-action="Add" class="btn btn-primary btn-lg" role="button">Add House</a>
             }
-            </p>
-        </div>
+        </p>
+    </div>
 }
 
 <div class="mb-5"></div>
@@ -31,16 +31,16 @@
         @for (int i = 0; i < houses.Count(); i++)
         {
             var house = houses[i];
-                <div class="carousel-item @(i == 0 ? "active" : string.Empty)">
-                    <img class="d-block w-100" style="height:500px"
-                     src="@house.ImageUrl" alt="@house.Title">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>
-                            <a class="btn btn-primary" asp-controller="House" asp-action="Details"
-                           asp-route-id="@house.Id"> @house.Title</a>
-                        </h5>
-                    </div>
+            <div class="carousel-item @(i == 0 ? "active" : string.Empty)">
+                <img class="d-block w-100" style="height:500px"
+                 src="@house.ImageUrl" alt="@house.Title">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>
+                        <a class="btn btn-primary" asp-controller="House" asp-action="Details"
+                           asp-route-id="@house.Id" asp-route-information="@house.GetInformation()"> @house.Title</a>
+                    </h5>
                 </div>
+            </div>
         }
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -52,3 +52,31 @@
         <span class="visually-hidden">Next</span>
     </button>
 </div>
+
+<div class="mb-5"></div>
+
+<div class="row">
+    <div class="col-12 text-center">
+        <button class="btn btn-primary" id="statistics-button">Show Statistics</button>
+    </div>
+</div>
+
+<div class="mt-4 p-5 bg-light d-none" id="statistics">
+    <div class="row">
+        <h2 class="col-md-2 text-center" id="total-houses"></h2>
+        <h2 class="col-md-2 text-center" id="total-rents"></h2>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        $('#statistics-button').on('click', ev => { 
+            $.get('/api/statistic', data => {
+                $('#total-houses').text(data.totalHouses + ' Houses');
+                $('#total-rents').text(data.totalRents + ' Rents');
+                $('#statistics').removeClass('d-none');
+                $('#statistics-button').hide();
+            });
+        });
+    </script>
+}
