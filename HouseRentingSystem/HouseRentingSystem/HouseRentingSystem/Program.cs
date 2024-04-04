@@ -1,5 +1,8 @@
 using HouseRentingSystem.ModelBinders;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
+using HouseRentingSystem.Infrastructure.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -13,6 +16,7 @@ builder.Services.AddControllersWithViews(options =>
 });
 
 builder.Services.AddApplicationServices();
+builder.Services.AddMemoryCache();
 
 var app = builder.Build();
 
@@ -43,9 +47,16 @@ app.UseEndpoints(endpoints =>
         pattern: "/House/Details/{id}/{information}",
         defaults: new { Controller = "House", Action = "Details" }
     );
+
+    endpoints.MapControllerRoute(
+            name: "areas",
+            pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}"
+    );
+
     endpoints.MapDefaultControllerRoute();
     endpoints.MapRazorPages();
 });
 
+await app.CreateAdminRoleAsync();
 
 await app.RunAsync();

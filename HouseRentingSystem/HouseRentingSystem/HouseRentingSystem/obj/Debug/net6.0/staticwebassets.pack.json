@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\Softuni\\SoftUni C#Web\\Projects\\FEB24-SoftUni-Csharp-WebAdvanced\\HouseRentingSystem\\HouseRentingSystem\\HouseRentingSystem\\wwwroot\\js\\jquerry.override-validator.js",
+      "PackagePath": "staticwebassets\\js\\jquerry.override-validator.js"
+    },
+    {
       "Id": "D:\\Softuni\\SoftUni C#Web\\Projects\\FEB24-SoftUni-Csharp-WebAdvanced\\HouseRentingSystem\\HouseRentingSystem\\HouseRentingSystem\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

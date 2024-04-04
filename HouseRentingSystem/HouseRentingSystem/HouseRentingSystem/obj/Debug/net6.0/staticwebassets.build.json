@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "zt7/EC6p7fnTVVN0QIl+5kjiXv0WOiDE1FslSJIER3w=",
+  "Hash": "WieEoLNhep+cW3r8o2Y4liM9xxCp2RS/dHr+vy/SEdY=",
   "Source": "HouseRentingSystem",
   "BasePath": "_content/HouseRentingSystem",
   "Mode": "Default",
@@ -1103,6 +1103,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\Softuni\\SoftUni C#Web\\Projects\\FEB24-SoftUni-Csharp-WebAdvanced\\HouseRentingSystem\\HouseRentingSystem\\HouseRentingSystem\\wwwroot\\js\\jquerry.override-validator.js",
+      "SourceId": "HouseRentingSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Softuni\\SoftUni C#Web\\Projects\\FEB24-SoftUni-Csharp-WebAdvanced\\HouseRentingSystem\\HouseRentingSystem\\HouseRentingSystem\\wwwroot\\",
+      "BasePath": "_content/HouseRentingSystem",
+      "RelativePath": "js/jquerry.override-validator.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\jquerry.override-validator.js"
     },
     {
       "Identity": "D:\\Softuni\\SoftUni C#Web\\Projects\\FEB24-SoftUni-Csharp-WebAdvanced\\HouseRentingSystem\\HouseRentingSystem\\HouseRentingSystem\\wwwroot\\js\\site.js",
