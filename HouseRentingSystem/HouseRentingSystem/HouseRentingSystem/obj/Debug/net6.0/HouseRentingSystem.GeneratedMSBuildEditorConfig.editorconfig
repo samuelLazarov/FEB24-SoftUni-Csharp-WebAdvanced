@@ -16,6 +16,38 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\Softuni\SoftUni C#Web\Projects\FEB24-SoftUni-Csharp-WebAdvanced\HouseRentingSystem\HouseRentingSystem\HouseRentingSystem
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/Softuni/SoftUni C\#Web/Projects/FEB24-SoftUni-Csharp-WebAdvanced/HouseRentingSystem/HouseRentingSystem/HouseRentingSystem/Areas/Identity/Pages/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Softuni/SoftUni C\#Web/Projects/FEB24-SoftUni-Csharp-WebAdvanced/HouseRentingSystem/HouseRentingSystem/HouseRentingSystem/Areas/Identity/Pages/Account/Manage/TwoFactorAuthentication.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcVHdvRmFjdG9yQXV0aGVudGljYXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Softuni/SoftUni C\#Web/Projects/FEB24-SoftUni-Csharp-WebAdvanced/HouseRentingSystem/HouseRentingSystem/HouseRentingSystem/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX01hbmFnZU5hdi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Softuni/SoftUni C\#Web/Projects/FEB24-SoftUni-Csharp-WebAdvanced/HouseRentingSystem/HouseRentingSystem/HouseRentingSystem/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Softuni/SoftUni C\#Web/Projects/FEB24-SoftUni-Csharp-WebAdvanced/HouseRentingSystem/HouseRentingSystem/HouseRentingSystem/Areas/Identity/Pages/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Softuni/SoftUni C\#Web/Projects/FEB24-SoftUni-Csharp-WebAdvanced/HouseRentingSystem/HouseRentingSystem/HouseRentingSystem/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Softuni/SoftUni C\#Web/Projects/FEB24-SoftUni-Csharp-WebAdvanced/HouseRentingSystem/HouseRentingSystem/HouseRentingSystem/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Softuni/SoftUni C\#Web/Projects/FEB24-SoftUni-Csharp-WebAdvanced/HouseRentingSystem/HouseRentingSystem/HouseRentingSystem/Areas/Identity/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Softuni/SoftUni C\#Web/Projects/FEB24-SoftUni-Csharp-WebAdvanced/HouseRentingSystem/HouseRentingSystem/HouseRentingSystem/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
